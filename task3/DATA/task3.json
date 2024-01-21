@@ -1,0 +1,16 @@
+{
+  "image_size": {
+    "x_length": 500,
+    "y_length": 500
+  },
+  "figures": [
+    {
+      "Square": {
+        "x_upper_left": 40,
+        "y_upper_left": 50,
+        "side_length": 10,
+        "line_width" : 3
+      }
+    }
+  ]
+}

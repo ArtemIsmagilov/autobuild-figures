@@ -1,0 +1,8 @@
+Untitled.ipynb
+.ipynb_checkpoints/
+htmlcov/
+.coverage
+.idea/
+__pycache__/
+venv/
+

@@ -1,0 +1,33 @@
+{
+  "image_size": {
+    "x_length": 500,
+    "y_length": 500
+  },
+  "figures": [
+    {
+      "Triangle": {
+        "shape": [
+          {
+            "point": {
+              "x": 10,
+              "y": 15
+            }
+          },
+          {
+            "point": {
+              "x": 20,
+              "y": 35
+            }
+          },
+          {
+            "point": {
+              "x": 80,
+              "y": 45
+            }
+          }
+        ],
+        "color": "green"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "image_size": {
+    "x_length": 500,
+    "y_length": 500
+  },
+  "figures": [
+    {
+      "Circle": {
+        "x_center": 45,
+        "y_center": 20,
+        "radius": 9,
+        "color": "red"
+      }
+    },
+    {
+      "Rectangle": {
+        "x_upper_left": 187,
+        "y_upper_left": 218,
+        "x_lower_right": 230,
+        "y_lower_right": 202,
+        "color": "green"
+      }
+    },
+    {
+      "Rectangle": {
+        "x_upper_left": 211,
+        "y_upper_left": 214,
+        "x_lower_right": 300,
+        "y_lower_right": 44,
+        "color": "orange"
+      }
+    }
+  ]
+}
