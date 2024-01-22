@@ -108,8 +108,8 @@ class PictureFromJson:
 
             fig.legend(loc='outside upper right')
             ax.autoscale()
-            to_path = Path(output_folder) / from_path.with_suffix('.svg').name
-            plt.savefig(to_path, format='svg')
+            to_path = Path(output_folder) / from_path.with_suffix('.png').name
+            plt.savefig(to_path, format='png')
             print('Saved figure to', to_path, 'from', from_path)
 
 

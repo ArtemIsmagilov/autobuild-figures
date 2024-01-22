@@ -22,32 +22,32 @@ class TestCreateImage(unittest.TestCase):
         self.assertEqual((Path(output_folder) / output_filename).exists(), True)
 
     def test_exists_image_task1(
-            self, data_root_folder='task1/DATA', output_folder='task1/Images', output_filename='task1.svg'
+            self, data_root_folder='task1/DATA', output_folder='task1/Images', output_filename='task1.png'
     ):
         self._init_config_and_run(data_root_folder, output_folder, output_filename)
 
     def test_exists_image_task2(
-            self, data_root_folder='task2/DATA', output_folder='task2/Images', output_filename='task2.svg'
+            self, data_root_folder='task2/DATA', output_folder='task2/Images', output_filename='task2.png'
     ):
         self._init_config_and_run(data_root_folder, output_folder, output_filename)
 
     def test_exists_image_task3(
-            self, data_root_folder='task3/DATA', output_folder='task3/Images', output_filename='task3.svg'
+            self, data_root_folder='task3/DATA', output_folder='task3/Images', output_filename='task3.png'
     ):
         self._init_config_and_run(data_root_folder, output_folder, output_filename)
 
     def test_exists_image_task4(
-            self, data_root_folder='task4/DATA', output_folder='task4/Images', output_filename='task4.svg'
+            self, data_root_folder='task4/DATA', output_folder='task4/Images', output_filename='task4.png'
     ):
         self._init_config_and_run(data_root_folder, output_folder, output_filename)
 
     def test_exists_image_task5(
-            self, data_root_folder='task5/DATA', output_folder='task5/Images', output_filename='task5.svg'
+            self, data_root_folder='task5/DATA', output_folder='task5/Images', output_filename='task5.png'
     ):
         self._init_config_and_run(data_root_folder, output_folder, output_filename)
 
     def test_exists_image_task6(
-            self, data_root_folder='task6/DATA', output_folder='task6/Images', output_filename='task6.svg'
+            self, data_root_folder='task6/DATA', output_folder='task6/Images', output_filename='task6.png'
     ):
         self._init_config_and_run(data_root_folder, output_folder, output_filename)
 
