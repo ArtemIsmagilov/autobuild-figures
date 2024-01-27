@@ -69,14 +69,10 @@ class Square(Rectangle):
 
 
 class FigureFactory:
-    Square = Square
-    Triangle = Triangle
-    Circle = Circle
-    Rectangle = Rectangle
 
     @classmethod
     def create_product(cls, creator_name, *args, **kwargs):
-        return getattr(cls, creator_name)(*args, **kwargs)
+        return eval(f'{creator_name}(*args, **kwargs)')
 
 
 class PictureFromJson:
